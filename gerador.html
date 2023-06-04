@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador</title>
+    <link rel="stylesheet" href="gerador.css">
+</head>
+<body>
+ <!--FUNDO PADRAO-->  
+ <div class="papel">
+  <img src="" alt="" class="img_especial"></div>
+
+   <section class="fundo">
+    <div class="editor">
+        <button class="btn-edt" name="balde"></button>
+        <button class="btn-edt" name="texto"></button>
+        <button class="btn-edt" name="imagem"></button>
+        <button class="btn-edt" name="efeito"></button>
+        
+    </div>
+    <div class="controlador">
+      <div class="btn-ctr" name="left">
+        <div class="forma-l"></div></div>
+      <div class="btn-ctr" name="right">
+        <div class="forma-r"></div></div>
+      <div class="btn-ctr" name="top">
+        <div class="forma-t"></div></div>
+      <div class="btn-ctr" name="bottom">
+        <div class="forma-b"></div></div>    
+        <div class="btn-ctr" name="ampliador"></div>
+        <div class="btn-ctr" name="reduzir"></div>
+    </div>
+
+    </div>
+   </section>
+  
+   <!--OPÇOES FLUTUANTES-->
+    <div class="opt">
+        <input type="file" class="input">
+    </div>
+
+    <!--FUNDO BALDE-->
+    <section class="fundo-balde">
+   <div class="cores">
+    <button class="btn-cor" name="c-1" ></button>
+    <button class="btn-cor" name="c-2"></button>
+    <button class="btn-cor" name="c-3"></button>
+    <button class="btn-cor" name="c-4"></button>
+    <button class="btn-cor" name="c-5"></button>
+    <button class="btn-cor" name="c-6"></button>
+    <button class="btn-cor" name="c-7"></button>
+    <button class="btn-cor" name="c-8"></button>
+    <button class="btn-cor" name="c-9"></button>
+    <button class="btn-cor" name="c-10"></button>
+    <button class="btn-cor" name="c-11"></button>
+    <button class="btn-cor" name="c-12"></button>
+   </div>
+    </section>
+    
+    <!--FUNDO TEXTO-->
+    <section class="fundo-texto">
+    <p style="text-align: center; margin:5px;display: inline-block;">Fontes</p>
+    <button class="btn-sublinhado">S</button>
+    <button class="btn-bold">B</button>
+    <button class="btn-italico">I</button>
+    <button class="btn-normal">N</button>
+    <button class="btn-branco">W</button>
+    <button class="btn-texto-adicionar">+</button>
+    <hr style="rotate: 90 deg;margin: 0px;border: 0px solid red;">
+        <button class="btn-fonte" name="ft-1">Arial</button>
+        <button class="btn-fonte" name="ft-2">Verdana</button>
+        <button class="btn-fonte" name="ft-3">Tahoma</button>
+        <button class="btn-fonte" name="ft-4">Trebuchet MS</button>
+        <button class="btn-fonte" name="ft-5">Times New Romam</button>
+        <button class="btn-fonte" name="ft-6">Georgia</button>
+        <button class="btn-fonte" name="ft-7">Garamond</button>
+        <button class="btn-fonte" name="ft-8">Courier</button>
+        <button class="btn-fonte" name="ft-9">Gill Sans</button>
+        <button class="btn-fonte" name="ft-10">Serif</button>
+        <button class="btn-fonte" name="ft-11">Monospace</button>
+        <button class="btn-fonte" name="ft-12">Lucida</button>
+    </section>
+
+
+    <!--FUNDO IMAGEM-->
+    <section class="fundo-imagem">
+        <img src="./imagens/imagens/balao-01.png" alt="" class="img-imagem" name="img-img1">
+        <img src="./imagens/imagens/balao-02.png" alt="" class="img-imagem" name="img-img2">
+        <img src="./imagens/imagens/balao-03.png" alt="" class="img-imagem" name="img-img3">
+        <img src="./imagens/imagens/balao-04.png" alt="" class="img-imagem" name="img-img4">
+    </section>
+
+    <!--FUNDO EFEITO-->
+    <section class="fundo-efeito">
+        <button class="btn-efeito" name="efeito0">Sem efeito</button>
+    
+       <hr style="width: 30px; display: inline-block; 
+        margin: 5px; border: 5px solid  rgb(35, 40, 54);;">
+       
+       <button class="btn-efeito" name="efeito1">Blur</button>
+
+        <button class="btn-efeito" name="efeito2">Brightness</button>
+        
+
+        <hr style="width: 30px; display: inline-block; 
+        margin: 5px; border: 5px solid  rgb(35, 40, 54);">
+
+        <button class="btn-efeito" name="efeito3">Contrast</button>
+        
+
+
+        <button class="btn-efeito" name="efeito4">Drop-shadow</button>
+      
+       <hr style="width: 30px; display: inline-block; 
+        margin: 5px; border: 5px solid  rgb(35, 40, 54);">
+
+        <button class="btn-efeito" name="efeito5">Grayscale</button>
+       
+
+
+        <button class="btn-efeito" name="efeito6">Hue-rotate</button>
+       
+
+        <hr style="width: 30px; display: inline-block; 
+        margin: 5px; border: 5px solid rgb(35, 40, 54);">
+        <button class="btn-efeito" name="efeito7">Invert</button>
+        
+
+
+        <button class="btn-efeito" name="efeito8">Opacity</button>
+        
+        <hr style="width: 30px; display: inline-block; 
+        margin: 5px; border: 5px solid  rgb(35, 40, 54);">
+        <button class="btn-efeito" name="efeito9">Saturate</button>
+       
+
+        <button class="btn-efeito" name="efeito10">Sepia</button>
+        
+        <hr style="width: 30px; display: inline-block; 
+        margin: 5px; border: 5px solid rgb(35, 40, 54);">
+        <button class="btn-efeito" name="efeito11">Combinação</button>
+       
+    </section>
+
+
+   </section>
+
+
+</body>
+</html>
+<script src="gerador.js"></script>
