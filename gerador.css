@@ -64,7 +64,7 @@ body {
     border-radius: 20px;
     background-color: white;
    display: inline-block;
-    background-image: url("/imagens/icones/mais-controlador.png");
+    background-image: url("./imagens/icones/mais-controlador.png");
 }
 .btn-ctr[name="reduzir"]{
     width: 60px;
@@ -73,7 +73,7 @@ body {
     border-radius: 20px;
     background-color: white;
     display: inline-block;
-    background-image: url("/imagens/icones/menos-controlador.png");
+    background-image: url("./imagens/icones/menos-controlador.png");
 }
 .forma-l{
 width: 35px;
@@ -150,23 +150,23 @@ background-color: white;
 }
 
 button[name="balde"] {
-    background-image: url(/imagens/icones/balde-de-tinta.png);
+    background-image: url("./imagens/icones/balde-de-tinta.png");
 }
 
 button[name="texto"] {
-    background-image: url(/imagens/icones/texto.png);
+    background-image: url("./imagens/icones/texto.png");
 }
 
 button[name="imagem"] {
-    background-image: url(/imagens/icones/img.png);
+    background-image: url("./imagens/icones/img.png");
 }
 
 button[name="emoji"] {
-    background-image: url(/imagens/icones/emoji.png);
+    background-image: url("./imagens/icones/emoji.png");
 }
 
 button[name="efeito"] {
-    background-image: url(/imagens/icones/efeito.png);
+    background-image: url("./imagens/icones/efeito.png");
 }
 
 .btn-ctr {
@@ -180,19 +180,19 @@ button[name="efeito"] {
 }
 
 button[name="mais"] {
-    background-image: url(/imagens/icones/mais-controlador.png);
+    background-image: url("./imagens/icones/mais-controlador.png");
 }
 
 button[name="menos"] {
-    background-image: url(/imagens/icones/menos-controlador.png);
+    background-image: url("./imagens/icones/menos-controlador.png");
 }
 
 button[name="esticar"] {
-    background-image: url(/imagens/icones/esticar-controlador.png);
+    background-image: url("./imagens/icones/esticar-controlador.png");
 }
 
 button[name="rotacionar"] {
-    background-image: url(/imagens/icones/rotaçao-controlador.png);
+    background-image: url("./imagens/icones/rotaçao-controlador.png");
 }
 
 .opt {
